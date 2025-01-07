@@ -74,6 +74,7 @@ if found:
     from carl.envs.dmc import *
 
     __all__ += [
+        "CARLDmcBallInCupEnv",
         "CARLDmcFingerEnv",
         "CARLDmcFishEnv",
         "CARLDmcQuadrupedEnv",
